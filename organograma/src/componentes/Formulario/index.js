@@ -16,6 +16,8 @@ const Formulario = () => {
       <CampoTexto label ="Nome" placeholder="Digite seu nome"/>
       <CampoTexto label ="E-mail" placeholder="Digite seu e-mail"/>
       <CampoTexto label ="Senha" placeholder="Digite sua senha"/>
+      <CampoTexto label ="Telefone" placeholder ="Digite seu telefone"/>
+
       <ListaSuspensa label ="Tipo" itens={times}/>
       <Botao texto="Criar Cadastro"/>
             </form>
